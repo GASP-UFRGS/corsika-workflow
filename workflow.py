@@ -267,7 +267,7 @@ import time
 from math import cos
 import os
 
-file_names = ['EDresults_em_1k', 'EDresults_mu', 'EDresults_hd']
+file_names = ['EDresults_em_5k', 'EDresults_mu', 'EDresults_hd']
 limit = -1
 
 def make_curve(points, loop2):
@@ -503,7 +503,7 @@ def main():
         execute_command("python3 tracks2root.py")
         process_files(['results_em', 'results_mu', 'results_hd'])
         execute_command("rm results_*")
-        execute_command("head -n 1000 EDresults_em > EDresults_em_1k")
+        execute_command("head -n 5000 EDresults_em > EDresults_em_5k")
         execute_command("mkdir data")
         execute_command("mv EDresults* data/")
         # Generate Blender animation
