@@ -24,3 +24,8 @@ The animation is generated with a limited number of lines of the electromagnetic
 ## Usage
 
 Run the main workflow script using "python3 workflow.py"
+
+## Acknowledgement
+
+Bruno Zanetti, for providing the Blender script to produce animations.
+Gabriel Chiritoi, for helping us in translating the CORSIKA outputs into text format.
