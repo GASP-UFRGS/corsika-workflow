@@ -1,0 +1,4 @@
+CORSIKA compiled with PLOTSH for image generation
+Python - version 3.10+
+Blender - version 2.82
+FFmpeg for video compilation
